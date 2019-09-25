@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+body {
+	background-color: lightgray;
+	font-family: Roboto;
+}
+/*Begin; trang chủ*/
+#header {
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+		url("../image/background-trangchu.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-background-size: cover;
+	height: 600px;
+}
+.nav-center {
+	padding-left: 35% !important;
+	opacity: 0.74;
+	background-color: #14526fad;
+	border-radius: 7px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+
+}
+.nav-link {
+	width: 100px;
+    box-shadow: -1px 1px 3px 1px;
+    text-align: center;
+    margin-left: 18px;
+    border-radius: 6px;
+
+}
+a.nav-link:hover{
+
+	
+	background-color: #42678c;
+
+
+}
+.navbar a{
+	color: white !important;
+	padding-left: 5px;
+	padding-right: 10px;
+	
+}
+.dropdown-menu a{
+	color: black !important;
+	font-weight: 600;
+}
+.text-title {
+	text-align: center;
+	color: #ffffff;
+    
+	padding-top: 15%;
+}
+
+
+/*responsive*/
+
+@media ( max-width : 575.98px) {
+	.nav-center {
+		padding-left: 5% !important;
+	}
+}
+
+@media ( min-width : 576px) and (max-width: 767.98px) {
+	.nav-center {
+		padding-left: 5% !important;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 991.98px) {
+	.nav-center {
+		padding-left: 25% !important;
+	}
+}
+
+@media ( min-width : 992px) and (max-width: 1199.98px) {
+	.nav-center {
+		padding-left: 25% !important;
+	}
+}
+
+
+/*End: trang chủ*/
+
+
+/*Begin: Lab1*/
+
+/*Begin: title*/
+.mobileframe {
+
+	height: 740px;
+	width: 375px;
+	background-color: white;
+	margin-top: 30px;
+	background-image: url("../image/iPhoneX.png");
+	box-shadow: 10px 17px 17px rgba(10,10,10,10.25);
+	border-radius: 6px;
+}
+.title-ff  {
+	
+	padding-top: 110px;
+	padding-left: 50px;
+	text-align: center;
+	
+
+}
+.col-sm-6{
+	max-width: 100% !important;
+}
+.title-ff span {
+	font-weight:bold;
+	font-size: 43px;
+	color: #851B1B;
+}
+/*End Title*/
+
+.button-mycart {
+	padding-top: 380px;
+	padding-left: 56px;
+}
+
+.button-style button{
+	border: none;
+	background-color: white;
+	color: #452929;
+	font-size: 23px;
+	width: 258px;
+	height: 54px;
+	font-weight: bold;
+	border-radius: 7px;
+	box-shadow: 5px 7px 7px rgba(2, 2, 2, 0.75);
+
+}
+.button-mycart img{
+	margin-left: -54px;
+	padding-right: 32px;
+	padding-bottom: 9px;
+	
+}
+/*End: Page 1*/
+/*Start Page 2*/
+.inside {
+
+	background-image: url("../image/iphoneX2.png");
+}
+
+.infor {
+	margin-top: 20px;
+}
+
+.buttonTool {
+width: 127px;
+height: 149px;
+left: 24px;
+top: 160px;
+background-color: white;
+margin-right: 10px;
+margin-left: 10px;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+text-align: center;
+}
+.buttonTool img{
+	position: absolute;
+	width: 50px;
+	margin-left: -24px;
+    margin-top: 20px;
+	
+}
+.text {
+	margin-top: 81px;
+	font-weight: 600;
+   font-size: 23px;
+   line-height: 27px;
+
+   text-align: center;
+    color: #442828
+
+}
+.frameImg {
+	width: 56px;
+	height: 48px;
+	border-radius: 60px;
+	background-color: #FFF;
+	margin-top: 10px;
+	padding-left: 11px;
+}

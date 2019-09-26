@@ -5,6 +5,7 @@ body {
 	font-family: Roboto;
 }
 /*Begin; trang chủ*/
+/*Begin: header*/
 #header {
 	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
 		url("../image/background-trangchu.jpg") no-repeat center center fixed;
@@ -52,9 +53,65 @@ a.nav-link:hover{
     
 	padding-top: 15%;
 }
+/*END: header*/
+/*BEGIN: BODY*/
+#icon-slogan{
+	margin-top: 70px;
+
+}
+#icon-slogan img{
+
+	 margin-left: 201%;
+	
+}
+
+#title-labs{
+	margin-top: 100px;
+	text-align: center;
+	font-family: cursive;
 
 
-/*responsive*/
+}
+
+.labs {
+	height: 200px;
+    margin: 45px 21px 25px 65px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 8px;
+    background-color: #38886a;
+}
+.labs:hover {
+	background-color: #96a2ad;
+	
+}
+.text-lab:hover{
+	color:#484545;
+	font-size: 25px;
+}
+
+.text-lab {
+	margin-top:61px;
+	font-size: 23px;
+	color:#ffffff;
+
+}
+.text-lab span{
+	margin-top: 12px;
+}
+.text-lab img{
+	width:32px;
+}
+}
+
+
+
+
+
+/*END: BODY*/
+
+
+/*responsive HOME*/
 
 @media ( max-width : 575.98px) {
 	.nav-center {

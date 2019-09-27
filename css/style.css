@@ -144,6 +144,9 @@ a.nav-link:hover{
 /*Begin: Lab1*/
 
 /*Begin: title*/
+.background-lab1{
+	background-image: url("../image/bg-wood.jpg");
+}
 .mobileframe {
 
 	height: 740px;

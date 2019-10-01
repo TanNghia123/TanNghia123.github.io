@@ -7,5 +7,10 @@ $(document).ready(function(){
   	$("#hahaha").hide();
 
   });
+
+  $("#design-button").click(function(){
+
+  	$("#figma").attr("class","container-fluid wow tada");
+  })
  
 });

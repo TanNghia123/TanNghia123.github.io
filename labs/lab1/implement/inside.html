@@ -37,7 +37,7 @@
 <!-- Begin: row 1 -->
 	<div class="row" style="padding-top: 90px">
 		<div class="col-md-6">
-			<div class="buttonTool">
+			<div class="buttonTool"  onclick="document.getElementById('id01').style.display='block'">
 				<img src="../imageForLab/shopping-cart.png"/><br/>
 				<div class="text"><span>ADD</span></div>
 				
@@ -46,7 +46,7 @@
 		</div>
 
 		<div class="col-md-6 ">
-			<div class="buttonTool">
+			<div class="buttonTool"  onclick="document.getElementById('id02').style.display='block'">
 				<div><img src="../imageForLab/shopping-cart.png"/></div><br/>
 				<div class="text"><span>DELETE</span></div>
 
@@ -57,14 +57,14 @@
 <!-- begin row 2 -->
 	<div class="row" style="margin-top: 60px">
 		<div class="col-md-6">
-			<div class="buttonTool">
+			<div class="buttonTool"  onclick="document.getElementById('id03').style.display='block'">
 				<img src="../imageForLab/edit.png"/><br/>
 
 				<div class="text"><span>EDIT</span></div>
 			</div>
 
 		</div>
-		<div class="col-md-6 ">
+		<div class="col-md-6 "  onclick="document.getElementById('id04').style.display='block'">
 			<div class="buttonTool">
 				<img src="../imageForlab/search.png"/><br/>
 			<div class="text"><span>SEARCH</span></div>
@@ -73,14 +73,131 @@
 	</div>
 	<!-- END row 2 -->
 	<!-- END: body -->
+	
 	  <div class="button-style" style="padding-top: 116px; padding-left: 37px;">
   	<button  onclick="window.open('page1.html');"><span>BACK</span></button>
   </div>
+  <!-- Begin: Function for button -->
+  <!-- function add -->
+  <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/ok.html" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <h1>FAST FOOD</h1>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Tên loại thức ăn</b></label>
+      <input type="text" placeholder="Nhập tên thức ăn" name="uname" required>
+     <label for="psw"><b>Số lượng</b></label>
+      <input type="password" placeholder="Nhập số lượng" name="psw" required>
+      <label for="psw"><b>Tên người nhập</b></label>
+      <input type="password" placeholder="Nhập tên" name="psw" required>
+        
+      <button type="submit">Thêm</button>
+ 
+    </div>
+  </form>
+</div>
+ <!-- function add -->
+ <!-- function delete -->
+  <div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <h1>FAST FOOD</h1>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Tên loại thức ăn</b></label>
+      <input type="text" placeholder="Nhập tên thức ăn" name="uname" required>
+     <label for="psw"><b>Số lượng Xóa</b></label>
+      <input type="password" placeholder="Nhập số lượng" name="psw" required>
+      <label for="psw"><b>Tên người nhập</b></label>
+      <input type="password" placeholder="Nhập tên" name="psw" required>
+        
+      <button type="submit">Xóa</button>
+ 
+    </div>
+
+    
+  </form>
+</div>
+
+ <!-- function delete -->
+
+  <!-- function edit -->
+  <div id="id03" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <h1>FAST FOOD</h1>
+    </div>
+
+    <div class="container">
+    	<label for="psw"><b>Loại thức ăn cần chỉnh sửa</b></label><br/>
+      <select class="select">
+  		<option value="Hamburgers">Hamburgers</option>
+ 		 <option value="Soft Drink">Soft Drink</option>
+ 		 <option value="Pizza">Pizza</option>
+ 		 <option value="Taco">Taco</option>
+ 		 <option value="Sandwich">Sandwich</option>
+		</select><br/>
+     <label for="psw"><b>Số lượng :</b></label>
+      <input type="password" placeholder="Nhập số lượng" name="psw" required>
+      <label for="psw"><b>Tên người nhập</b></label>
+      <input type="password" placeholder="Nhập tên" name="psw" required>
+        
+      <button type="submit">Xóa</button>
+ 
+    </div>
+
+    
+  </form>
+</div>
+
+ <!-- function edit -->
+
+   <!-- function search -->
+  <div id="id04" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <h1>FAST FOOD</h1>
+    </div>
+
+    <div class="container">
+    	
+ 	<input type="text" name="search" placeholder="Search.." reuired>
+ 	<button type="submit">Search</button>
+    </div>
+
+    
+  </form>
+</div>
+
+ <!-- function search -->
+
+<!-- end: Function for button -->
 
 </div>
 	
 
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
 
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
 
 

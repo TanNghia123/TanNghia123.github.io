@@ -4,6 +4,7 @@ body {
 	background-color: lightgray;
 	font-family: Roboto;
 }
+
 /*Begin; trang chủ*/
 /*Begin: header*/
 #header {
@@ -198,12 +199,6 @@ a.nav-link:hover{
 
 
 /*END: BODY*/
-/*BEGIN: FOOTER*/
-.footer{
-	background-color: #1f1a64;
-
-}
-/*END: FOOTER*/
 
 
 

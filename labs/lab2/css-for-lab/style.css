@@ -183,10 +183,10 @@ a.nav-link:hover{
 .image-figma {
 	display: flex;
 	text-align: center;
-	margin-left: 100px;
+	
 }
 .image-figma img{
-	    width: 60%;
+	    width: 98%;
 }
 .image-figma p {
 	font-size: 20px;

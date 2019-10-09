@@ -44,7 +44,7 @@ a.nav-link:hover{
 
 }
 .navbar-light .navbar-brand {
-	margin-right: 22% !important;
+	margin-right: 10% !important;
 }
 .navbar a{
 	color: white !important;
@@ -55,7 +55,8 @@ a.nav-link:hover{
 
 .text-title {
 	text-align: center;
-	color: #f0ffec;
+  color: #f0ffec;
+  padding-top: 1%;
     
 	
 }
@@ -66,7 +67,7 @@ a.nav-link:hover{
 #title-labs{
 	margin-top: 100px;
 	text-align: center;
-	font-family:'Lobster', cursive;;s
+	font-family:'Lobster', cursive;
 
 
 }
@@ -110,7 +111,7 @@ a.nav-link:hover{
 	transition: all 0.3s ease-in;
 	font-size: 16px;
 	margin-top: 11%;
-    height: 277px;
+    height: 100%px;
     border-radius: 7px;
 }
 
@@ -121,6 +122,9 @@ a.nav-link:hover{
 .requirement-content i{
 	width: 64px;
 	height: 64px;
+}
+.requirement-content p{
+	text-align: left;
 }
 
     
@@ -183,10 +187,10 @@ a.nav-link:hover{
 .image-figma {
 	display: flex;
 	text-align: center;
-	
+	margin-left: 0rem;
 }
 .image-figma img{
-	    width: 98%;
+	    width: 60%;
 }
 .image-figma p {
 	font-size: 20px;
@@ -197,9 +201,9 @@ a.nav-link:hover{
 .body-ex{
   	color: #444444;
     background: #4a362f;
-    width: 90%;
+    width: 99%;
     height: 100%;
-    margin-top: 150px;
+    margin-top: 180px;
     border-radius: 7px;
     opacity: 0.97;
     padding-bottom: 30px;
@@ -217,7 +221,7 @@ a.nav-link:hover{
 
 
 .tabs{
-  width: 75%;
+  width: 95%;
   margin: 0 auto;
   text-align: center;
 }
@@ -318,10 +322,13 @@ a.nav-link:hover{
   display: block;
   background: white;
   border-radius: 15px;
-  padding: 50px;
+  padding: 20px;
   float: left;
   width: 100%;
   text-align: left;
+}
+.tabs .tab-content img{
+  padding-left: 14%;
 }
 
 .tabs .tab-content h2{
@@ -347,7 +354,6 @@ a.nav-link:hover{
 .tabs .tab [type="radio"]:checked ~ .tab-panel {
   display: inline;
 }
-
 
 
 
@@ -465,7 +471,8 @@ margin-left: -1%;
 /*Start Page 2*/
 .inside {
 
-	background-image: url("../imageForLab/iphoneX2.png");
+  background-image: url("../imageForLab/iphoneX2.png");
+  
 }
 
 .infor {

@@ -189,9 +189,7 @@ a.nav-link:hover{
 	text-align: center;
 	margin-left: 0rem;
 }
-.image-figma img{
-	    width: 60%;
-}
+
 .image-figma p {
 	font-size: 20px;
 	font-weight:bold;
@@ -328,7 +326,7 @@ a.nav-link:hover{
   text-align: left;
 }
 .tabs .tab-content img{
-  padding-left: 14%;
+  padding-left: 15%;
 }
 
 .tabs .tab-content h2{

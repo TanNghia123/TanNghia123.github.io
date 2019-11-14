@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open-Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    color: #2f2f2f;
+    font-family: 'Roboto';
+    background-color: #fff;
+}
+.header-bar{
+    background-image: linear-gradient(to right,#094371 ,#7892b9);
+
+}
+
+.site-title h2 a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-link{
+    color:white;
+    margin: 0 26px;
+}
+.nav-link:hover{
+    color:black;
+}
+.gradient-bg{
+    background-image: linear-gradient(to right,#023965 ,#8cbbd0);
+    opacity: 0.8;
+    border-radius: 14px;
+    width: 10rem;
+
+
+}
+.booking-room a{
+   color: white;
+    text-decoration: none;
+
+}
+/*Slider animation*/
+.slider{
+    overflow:hidden;
+}
+.slider figure{
+    position: relative;
+    width:500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+
+}
+.nav-link{
+    font-size: 20px;
+}
+.slider figure img{
+    width:20%;
+    float: left;
+    filter: brightness(70%);
+    height: 400px;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+.login-form{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 17px rgba(1, 1, 1, 1);
+    background-color: #6cb9a2;
+}
+.login-form a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.login-site{
+    margin-top: 30px;
+    height: 500px;
+
+}
+.login-site h3{
+    padding-top: 10px;
+    color: white;
+}
+.input-fiel {
+    height: 3rem;
+    width: 20rem;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(1, 1, 1, 1);
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+.input-fiel:focus{
+    outline: none;
+}
+.content-sign-in{
+    font-size: 45px;
+    margin: 15px;
+
+}
+
+
+.form{
+    margin-top:3rem ;
+}
+
+/*Menu*/
+.swiper-container {
+    width: 100%;
+
+   background-color: #fff;
+}
+.swiper-slide {
+    text-align: center;
+
+    padding: 3px;
+    width: 300px !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img{
+    border-radius: 10px;
+}
+

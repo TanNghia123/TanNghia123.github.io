@@ -23,10 +23,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Draft/cv/nhanbui123.github.io" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web-githubs\TanNghia123.github.io" />
       <recent name="E:\web-githubs\TanNghia123.github.io\labs" />
     </key>
   </component>
@@ -76,6 +77,8 @@
       <workItem from="1572931952173" duration="636000" />
       <workItem from="1572933395305" duration="4075000" />
       <workItem from="1573691185676" duration="3912000" />
+      <workItem from="1575379466310" duration="607000" />
+      <workItem from="1575383966230" duration="1366000" />
     </task>
     <servers />
   </component>

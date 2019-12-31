@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a157bdd-ae35-4675-b57d-4a4d0af583bf" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,29 +18,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ss0BrE0JqFOHqFnmEr4eMDANyZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Draft/cv/nhanbui123.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hci2019group05.github.io" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\web-githubs\TanNghia123.github.io" />
       <recent name="E:\web-githubs\TanNghia123.github.io\labs" />
+      <recent name="E:\web-githubs\TanNghia123.github.io" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="agenda.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TanNghia123.github.io/labs/lab4/implement/agenda.html" useBuiltInWebServerPort="true">
@@ -56,6 +49,18 @@
         <item itemvalue="JavaScript Debug.agenda.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -79,6 +84,8 @@
       <workItem from="1573691185676" duration="3912000" />
       <workItem from="1575379466310" duration="607000" />
       <workItem from="1575383966230" duration="1366000" />
+      <workItem from="1577711438483" duration="2815000" />
+      <workItem from="1577758329326" duration="616000" />
     </task>
     <servers />
   </component>
@@ -97,5 +104,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="204" key="FileChooserDialogImpl" timestamp="1577759183909">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state x="549" y="204" key="FileChooserDialogImpl/0.0.1538.900@0.0.1538.900" timestamp="1577759183909" />
   </component>
 </project>

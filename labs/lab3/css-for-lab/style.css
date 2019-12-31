@@ -3,20 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 body {
-	background-color: lightgray;
+	background-color: #bbadad;
 	font-family: Roboto;
 }
 
 /*Begin; trang chủ*/
-/*Begin: header*/
-#header {
-	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-		url("../imageForLab/studing-wallpaper.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	-background-size: cover;
-	height: 600px;
-}
+
 .navbar {
 	height: 65px! important;
 }
@@ -201,7 +193,7 @@ a.nav-link:hover{
     background: #4a362f;
     width: 99%;
     height: 100%;
-    margin-top: 180px;
+    margin-top: 100px;
     border-radius: 7px;
     opacity: 0.97;
     padding-bottom: 30px;

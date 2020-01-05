@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hci2019group05.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -86,6 +86,7 @@
       <workItem from="1575383966230" duration="1366000" />
       <workItem from="1577711438483" duration="2815000" />
       <workItem from="1577758329326" duration="616000" />
+      <workItem from="1578229515379" duration="1273000" />
     </task>
     <servers />
   </component>
